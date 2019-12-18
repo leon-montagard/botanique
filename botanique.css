@@ -1,0 +1,215 @@
+body{
+	margin: 0;
+}
+#banniere1{
+	display: block;
+	background-color: #a6e0ac;
+	height: 50px;
+	width: 100%;
+}
+#banniere1 h1{
+	position: relative;
+	font-weight: bold;
+	font-size: 30px;
+	color: #164a29;
+	margin: 0;
+	text-align: center;
+	padding-top: 7px;
+}
+#menu{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	background-color: #54a55d;
+}
+#menu ul{
+	float: left;
+	left: 50%;
+	position: relative;
+	padding-top: 27px;
+	margin-left: -60px;
+}
+#menu ul li{
+	margin-left: 20px;
+	float: left;
+	list-style-type: none;
+	position: relative;
+	left: -50%;
+}
+#menu ul li a{
+	display: inline-block;
+	text-align: center;
+	padding-top: 9px;
+	background-color: #a6e0ac;
+	height: 30px;
+	width: 120px;
+	text-decoration: none;
+	color: black;
+}
+#menu ul li a:hover{
+	color: white;
+	background-color: #13703f;
+}
+#banniere2{
+	display: block;
+	background-color: #a6e0ac;
+	height: 50px;
+	width: 100%;
+}
+#contenuprincipal{
+	display: block;
+	width: 920px;
+	margin: auto;
+	font-size: 20px;
+	border-style: solid;
+	margin-top: 10px;
+	padding: 20px;
+}
+h2{
+	text-align: center;
+}
+#image1{
+	float: left;
+}
+#image2{
+	float: left;
+}
+.petites-images img{
+	padding-left: 50px;
+}
+#footer{
+	text-align: center;
+	display: block;
+	background-color: #a6e0ac;
+	width: 100%;
+	height: 180px;
+}
+#footer p{
+	color: #164a29;
+	font-weight: bold;
+	position: relative;
+	top: 15px;
+}
+#menufooter{
+	display: flex;
+	flex-direction: row;
+}
+#icones-reseaux{
+	position: absolute;
+	right: 200px;
+	bottom: 180px;
+	position: fixed;
+}
+/*----PAGE-PRESENTATION---*/
+
+#img1-presentation{
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	border-style: solid;
+}
+
+/*-----PAGE-PLANTES----*/
+#img1-plantes{
+	float: left;
+	margin-right: 20px;
+	border-style: outset;
+}
+#img1-plantes:hover{
+	transform: rotate(10deg);
+}
+#img2-plantes{
+	float: left;
+	margin-right: 20px;
+	border-style: outset;
+}
+#img2-plantes:hover{
+	transform: rotate(-10deg);
+}
+#img3-plantes{
+	float: left;
+	margin-right: 20px;
+	border-style: outset;
+}
+#img3-plantes:hover{
+	transform: scale(1.1);
+}
+
+/*------PAGE-ARBUSTES------*/
+tr td{
+	border-style: solid;
+	width: 200px;
+	text-align: center;
+}
+td:hover{
+	transform: scale(1,1);
+	box-shadow: 0px 0px 150px #000000;
+	z-index: 2;
+	-webkit-transition: all 200ms ease-in;
+	-webkit-transform: scale(1.5);
+	-ms-transition: all 200ms ease-in;
+	-ms-transform: scale(1.5);   
+	-moz-transition: all 200ms ease-in;
+	-moz-transform: scale(1.5);
+	transition: all 200ms ease-in;
+	transform: scale(1.1);
+}
+.premiereligne{
+	background-color: #D4EEF6;
+}
+.nomplantes{
+	background-color: #a6e0ac;
+}
+#figure1{
+	margin-left: 100px;
+}
+#figure2{
+	margin-left: 100px;
+}
+#figure3{
+	margin-left: 100px;
+}
+#figure4{
+	margin-left: 100px;
+}
+#figure5{
+	margin-left: 170px;
+}
+/*-------PAGE-FLEURS----------*/
+#img1-fleurs{
+	float: left;
+	margin-right: 20px;
+}
+#img2-fleurs{
+	float: left;
+	margin-right: 20px;
+}
+
+/*------PAGE-LEGUMES----------*/
+#img1-legumes{
+	float: left;
+	margin-right: 20px;
+	position: relative;
+	top: 10px;
+}
+#img2-legumes{
+	float: left;
+	margin-right: 20px;
+	position: relative;
+	top: 10px;
+}
+#img3-legumes{
+	float: left;
+	margin-right: 20px;
+	position: relative;
+	top: 10px;	
+}
+#contenuprincipal2{
+	display: block;
+	width: 920px;
+	margin: auto;
+	font-size: 20px;
+	border-style: solid;
+	margin-top: 10px;
+	padding: 20px;
+}
